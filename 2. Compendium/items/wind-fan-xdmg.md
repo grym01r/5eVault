@@ -1,0 +1,19 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XDMG]
+value: 
+weight_lb: 
+aliases: 
+- "Wind Fan"
+image: 2. Compendium/items/img/wind-fan.webp
+tags: Item
+---
+# Wind Fan
+*Wondrous item, uncommon*  
+![](wind-fan.webp#right)
+
+While holding this fan, you can cast [Gust of Wind](gust-of-wind-xphb.md) (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.
+
+*Source: Dungeon Master's Guide (2024) p. 213. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

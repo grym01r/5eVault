@@ -1,0 +1,18 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XDMG]
+value: 2,500 gp
+weight_lb: 
+aliases: 
+- "Old masterpiece painting"
+image: 
+tags: Item
+---
+# Old masterpiece painting
+*Treasure (art object)*  
+
+- **Cost**: 2,500 gp
+
+*Source: Dungeon Master's Guide (2024) p. 215*

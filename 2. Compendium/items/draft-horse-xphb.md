@@ -1,0 +1,18 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XPHB]
+value: 50 gp
+weight_lb: 
+aliases: 
+- "Draft Horse"
+image: 
+tags: Item
+---
+# Draft Horse
+*Mount*  
+
+- **Cost**: 50 gp
+
+*Source: Player's Handbook (2024) p. 229. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

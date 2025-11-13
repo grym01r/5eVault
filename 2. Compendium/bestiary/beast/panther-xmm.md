@@ -1,0 +1,58 @@
+---
+creature type: beast
+environment: forest, grassland, hill
+cr: 1/4
+alignment: Unaligned
+size: Medium
+source: [XMM]
+aliases:
+- Panther
+image: 2. Compendium/bestiary/beast/img/animals-hills-and-mountains.webp
+tags: monster
+---
+# Panther
+*Source: Monster Manual (2024) p. 366, Player's Handbook (2024) p. 354. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*  
+>[!infobox|left clean wmed]
+>```statblock
+>"name": "Panther (XMM)"
+>"size": "Medium"
+>"type": "beast"
+>"alignment": "Unaligned"
+>"ac": !!int "13"
+>"hp": !!int "13"
+>"hit_dice": "3d8"
+>"modifier": !!int "3"
+>"stats":
+>  - !!int "14"
+>  - !!int "16"
+>  - !!int "10"
+>  - !!int "3"
+>  - !!int "14"
+>  - !!int "7"
+>"speed": "50 ft., climb 40 ft."
+>"skillsaves":
+>  - "name": "[Perception](0.%20DM%20Screen/skills.md#Perception)"
+>    "desc": "+4"
+>  - "name": "[Stealth](0.%20DM%20Screen/skills.md#Stealth)"
+>    "desc": "+6"
+>"senses": "[darkvision](0.%20DM%20Screen/senses.md#Darkvision) 60 ft., passive Perception\
+>  \ 14"
+>"languages": ""
+>"cr": "1/4"
+>"actions":
+>  - "desc": "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing\
+>      \ damage."
+>    "name": "Rend"
+>"bonus_actions":
+>  - "desc": "The panther takes the Disengage or Hide action."
+>    "name": "Nimble Escape"
+>"source":
+>  - "XMM"
+>  - "XPHB"
+>"image": "2.%20Compendium/bestiary/beast/token/panther-xmm.webp"
+>```
+^statblock
+
+## Animals
+
+Use these stat blocks to represent the creatures they're named for or other similar creatures. For example, the [Panther](panther-xmm.md) stat block can also represent a mountain lion, while the [Giant Goat](giant-goat-xmm.md) stat block might represent a buffalo. Any of these stat blocks might also serve as fantastical animals with distinctive names and cosmetic details unique to your D&D adventures.

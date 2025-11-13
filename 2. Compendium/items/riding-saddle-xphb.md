@@ -1,0 +1,21 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XPHB]
+value: 10 gp
+weight_lb: 25.0
+aliases: 
+- "Riding Saddle"
+image: 
+tags: Item
+---
+# Riding Saddle
+*Tack and harness*  
+
+- **Cost**: 10 gp
+- **Weight**: 25.0 lbs.
+
+A saddle comes with a bit, a bridle, reins, and any other equipment needed to use the saddle.
+
+*Source: Player's Handbook (2024) p. 230. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

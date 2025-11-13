@@ -1,0 +1,20 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XDMG]
+value: 
+weight_lb: 1.0
+aliases: 
+- "+2 Wand of the War Mage"
+image: 
+tags: Item
+---
+# +2 Wand of the War Mage
+*Wand, rare (requires attunement by a spellcaster)*  
+
+- **Weight**: 1.0 lbs.
+
+While holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore [Half Cover](0.%20DM%20Screen/variant-rules/cover-xphb.md) when making a spell attack roll.
+
+*Source: Dungeon Master's Guide (2024) p. 322. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

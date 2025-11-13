@@ -1,0 +1,27 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XDMG]
+value: 
+weight_lb: 2.0
+aliases: 
+- "Decanter of Endless Water"
+image: 2. Compendium/items/img/decanter-of-endless-water.webp
+tags: Item
+---
+# Decanter of Endless Water
+*Wondrous item, uncommon*  
+![](decanter-of-endless-water.webp#right)
+
+- **Weight**: 2.0 lbs.
+
+This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.
+
+You can take a [Magic](0.%20DM%20Screen/actions.md#Magic) action to remove the stopper and issue one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following command words:
+
+- **Splash.** The decanter produces 1 gallon of water.  
+- **Fountain.** The decanter produces 5 gallons of water.  
+- **Geyser.** The decanter produces 30 gallons of water that gushes forth in a [Line](0.%20DM%20Screen/variant-rules/line-area-of-effect-xphb.md) 30 feet long and 1 foot wide. If you're holding the decanter, you can aim the geyser in one direction (no action required). One creature of your choice in the [Line](0.%20DM%20Screen/variant-rules/line-area-of-effect-xphb.md) must succeed on a DC 13 Strength saving throw or take `1d4` Bludgeoning damage and have the [Prone](0.%20DM%20Screen/conditions.md#Prone) condition. Instead of a creature, you can target one object in the [Line](0.%20DM%20Screen/variant-rules/line-area-of-effect-xphb.md) that isn't being worn or carried and that weighs no more than 200 pounds. The object is knocked over by the geyser.  
+
+*Source: Dungeon Master's Guide (2024) p. 249. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

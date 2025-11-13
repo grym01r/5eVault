@@ -1,0 +1,41 @@
+---
+tags: spell
+level: 4
+school: Transmutation
+components: V, S, M (soft clay)
+duration: Instantaneous
+classes:
+- Bard
+- Cleric
+- Druid
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Wizard
+ritual: False
+concentration: False
+cantrip_upgrade: False
+aliases:
+- Stone Shape
+---
+# Stone Shape
+*4th-level, Transmutation*  
+
+- **Casting time:** 1 Action
+- **Range:** Touch
+- **Components:** V, S, M (soft clay)
+- **Duration:** Instantaneous
+
+You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.
+
+**References**:
+
+- [Bard](0.%20DM%20Screen/lists/list-spells-classes-bard.md)
+- [Fighter (Eldritch Knight)](0.%20DM%20Screen/lists/list-spells-classes-eldritch-knight-xphb.md "subclass=XPHB;class=XPHB")
+- [Druid](0.%20DM%20Screen/lists/list-spells-classes-druid.md)
+- [Cleric](0.%20DM%20Screen/lists/list-spells-classes-cleric.md)
+- [Wizard](0.%20DM%20Screen/lists/list-spells-classes-wizard.md)
+- [Rogue (Arcane Trickster)](0.%20DM%20Screen/lists/list-spells-classes-arcane-trickster-xphb.md "subclass=XPHB;class=XPHB")
+
+## Sources
+
+*Player's Handbook (2024) p. 321. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*

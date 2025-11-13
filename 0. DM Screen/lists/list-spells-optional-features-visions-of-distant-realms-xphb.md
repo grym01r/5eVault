@@ -1,0 +1,10 @@
+---
+tags: list
+aliases:
+- Spells for Visions of Distant Realms
+---
+# Spells for Visions of Distant Realms
+
+## 4th Level
+
+- [Arcane Eye](arcane-eye-xphb.md "XPHB")

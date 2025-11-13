@@ -1,0 +1,20 @@
+---
+rarity:
+item type:
+attunement: False
+source: [XDMG]
+value: 
+weight_lb: 3.0
+aliases: 
+- "Crystal Ball of True Seeing"
+image: 
+tags: Item
+---
+# Crystal Ball of True Seeing
+*Wondrous item, legendary (requires attunement)*  
+
+- **Weight**: 3.0 lbs.
+
+While touching this crystal orb, you can cast [Scrying](scrying-xphb.md) (save DC 17) with it. In addition, you have [Truesight](0.%20DM%20Screen/senses.md#Truesight) with a range of 120 feet centered on the spell's sensor.
+
+*Source: Dungeon Master's Guide (2024) p. 159. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)*
