@@ -11,7 +11,7 @@ _Source: Player's Handbook (2024) p. 361. Available in the <span title='Systems 
 
 - **Duration**: 1 action
 
-When you take the Attack action, you can make one attack roll with a weapon or an [Unarmed Strike](0.%20DM%20Screen/variant-rules/unarmed-strike-xphb.md).
+When you take the Attack action, you can make one attack roll with a weapon or an [Unarmed Strike](unarmed-strike-xphb.md).
 
 ### Equipping and Unequipping Weapons
 
@@ -53,9 +53,9 @@ _Source: Player's Handbook (2024) p. 365. Available in the <span title='Systems 
 
 - **Duration**: 1 action
 
-When you take the Dash action, you gain extra movement for the current turn. The increase equals your [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) after applying any modifiers. With a [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.
+When you take the Dash action, you gain extra movement for the current turn. The increase equals your [Speed](speed-xphb.md) after applying any modifiers. With a [Speed](speed-xphb.md) of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your [Speed](speed-xphb.md) of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.
 
-If you have a special speed, such as a [Fly Speed](0.%20DM%20Screen/variant-rules/fly-speed-xphb.md) or [Swim Speed](0.%20DM%20Screen/variant-rules/swim-speed-xphb.md), you can use that speed instead of your [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) when you take this action. You choose which speed to use each time you take it.
+If you have a special speed, such as a [Fly Speed](fly-speed-xphb.md) or [Swim Speed](swim-speed-xphb.md), you can use that speed instead of your [Speed](speed-xphb.md) when you take this action. You choose which speed to use each time you take it.
 
 ## Disarm
 _Source: Dungeon Master's Guide (2014), p. 271_
@@ -76,16 +76,16 @@ _Source: Player's Handbook (2024) p. 366. Available in the <span title='Systems 
 
 - **Duration**: 1 action
 
-lf you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has [Disadvantage](0.%20DM%20Screen/variant-rules/disadvantage-xphb.md) if you can see the attacker, and you make Dexterity [saving throws](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) with [Advantage](0.%20DM%20Screen/variant-rules/advantage-xphb.md).
+lf you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has [Disadvantage](disadvantage-xphb.md) if you can see the attacker, and you make Dexterity [saving throws](saving-throw-xphb.md) with [Advantage](advantage-xphb.md).
 
-You lose these benefits if you have the [Incapacitated](0.%20DM%20Screen/conditions.md#Incapacitated) condition or if your [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) is 0.
+You lose these benefits if you have the [Incapacitated](0.%20DM%20Screen/conditions.md#Incapacitated) condition or if your [Speed](speed-xphb.md) is 0.
 
 ## Don or Doff a Shield
 _Source: Player's Handbook (2024) p. 219. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)_
 
 - **Duration**: 1 action
 
-A [Shield](2.%20Compendium/items/shield-xphb.md) can be donned or doffed as an action.
+A [Shield](2.%20Compendium/Items/shield-xphb.md) can be donned or doffed as an action.
 
 ## End Concentration
 _Source: Player's Handbook (2024) p. 363. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)_
@@ -99,7 +99,7 @@ _Source: Player's Handbook (2024) p. 367. Available in the <span title='Systems 
 
 - **Duration**: 1 action
 
-A Grappled creature can use its action to make a Strength ([Athletics](0.%20DM%20Screen/skills.md#Athletics)) or Dexterity ([Acrobatics](0.%20DM%20Screen/skills.md#Acrobatics)) check against the grapple's escape DC, ending the [condition](0.%20DM%20Screen/variant-rules/condition-xphb.md) on itself on a success. The [condition](0.%20DM%20Screen/variant-rules/condition-xphb.md) also ends if the grappler has the [Incapacitated](0.%20DM%20Screen/conditions.md#Incapacitated) condition or if the distance between the Grappled target and the grappler exceeds the grapple's range.
+A Grappled creature can use its action to make a Strength ([Athletics](0.%20DM%20Screen/skills.md#Athletics)) or Dexterity ([Acrobatics](0.%20DM%20Screen/skills.md#Acrobatics)) check against the grapple's escape DC, ending the [condition](condition-xphb.md) on itself on a success. The [condition](condition-xphb.md) also ends if the grappler has the [Incapacitated](0.%20DM%20Screen/conditions.md#Incapacitated) condition or if the distance between the Grappled target and the grappler exceeds the grapple's range.
 
 ## Help
 _Source: Player's Handbook (2024) p. 368. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
@@ -110,18 +110,18 @@ When you take the Help action, you do one of the following.
 
 ### Assist an Ability Check
 
-Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has [Advantage](0.%20DM%20Screen/variant-rules/advantage-xphb.md) on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible.
+Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has [Advantage](advantage-xphb.md) on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible.
 
 ### Assist an Attack Roll
 
-You momentarily distract an enemy within 5 feet of you, giving [Advantage](0.%20DM%20Screen/variant-rules/advantage-xphb.md) to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.
+You momentarily distract an enemy within 5 feet of you, giving [Advantage](advantage-xphb.md) to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.
 
 ## Hide
 _Source: Player's Handbook (2024) p. 368. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
 
 - **Duration**: 1 action
 
-With the Hide action, you try to conceal yourself. To do so, you must succeed on a DC 15 Dexterity ([Stealth](0.%20DM%20Screen/skills.md#Stealth)) check while you're [Heavily Obscured](0.%20DM%20Screen/variant-rules/heavily-obscured-xphb.md) or behind [Three-Quarters Cover or Total Cover](0.%20DM%20Screen/variant-rules/cover-xphb.md), and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
+With the Hide action, you try to conceal yourself. To do so, you must succeed on a DC 15 Dexterity ([Stealth](0.%20DM%20Screen/skills.md#Stealth)) check while you're [Heavily Obscured](heavily-obscured-xphb.md) or behind [Three-Quarters Cover or Total Cover](0.%20DM%20Screen/Variant-rules/cover-xphb.md), and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you.
 
 On a successful check, you have the [Invisible](0.%20DM%20Screen/conditions.md#Invisible) condition. Make note of your check's total, which is the DC for a creature to find you with a Wisdom ([Perception](0.%20DM%20Screen/skills.md#Perception)) check.
 
@@ -132,7 +132,7 @@ _Source: Player's Handbook (2024) p. 15. Available in the Free Rules (2024)_
 
 - **Duration**: Varies
 
-Player characters and monsters can also do things not covered by other actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of [D20 Test](0.%20DM%20Screen/variant-rules/d20-test-xphb.md) you need to make, if any.
+Player characters and monsters can also do things not covered by other actions. Many class features and other abilities provide additional action options, and you can improvise other actions. When you describe an action not detailed elsewhere in the rules, the Dungeon Master tells you whether that action is possible and what kind of [D20 Test](d20-test-xphb.md) you need to make, if any.
 
 ## Influence
 _Source: Player's Handbook (2024) p. 369_
@@ -178,7 +178,7 @@ _Source: Player's Handbook (2024) p. 371. Available in the <span title='Systems 
 
 - **Duration**: 1 reaction
 
-You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its [Bonus Action](0.%20DM%20Screen/variant-rules/bonus-action-xphb.md), its [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md), or one of its speeds. To make the Opportunity Attack, take a [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md) to make one melee attack with a weapon or an [Unarmed Strike](0.%20DM%20Screen/variant-rules/unarmed-strike-xphb.md) against the provoking creature. The attack occurs right before the creature leaves your reach.
+You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its [Bonus Action](bonus-action-xphb.md), its [Reaction](reaction-xphb.md), or one of its speeds. To make the Opportunity Attack, take a [Reaction](reaction-xphb.md) to make one melee attack with a weapon or an [Unarmed Strike](unarmed-strike-xphb.md) against the provoking creature. The attack occurs right before the creature leaves your reach.
 
 ## Overrun
 _Source: Dungeon Master's Guide (2014) p. 272_
@@ -192,13 +192,13 @@ _Source: Player's Handbook (2024) p. 372. Available in the <span title='Systems 
 
 - **Duration**: 1 action
 
-You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md) before the start of your next turn.
+You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a [Reaction](reaction-xphb.md) before the start of your next turn.
 
-First, you decide what perceivable circumstance will trigger your [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md). Then, you choose the action you will take in response to that trigger, or you choose to move up to your [Speed](0.%20DM%20Screen/variant-rules/speed-xphb.md) in response to it. Examples include "If the cultist steps on the trapdoor, I'll pull the lever that opens it," and "If the zombie steps next to me, I move away."
+First, you decide what perceivable circumstance will trigger your [Reaction](reaction-xphb.md). Then, you choose the action you will take in response to that trigger, or you choose to move up to your [Speed](speed-xphb.md) in response to it. Examples include "If the cultist steps on the trapdoor, I'll pull the lever that opens it," and "If the zombie steps next to me, I move away."
 
-When the trigger occurs, you can either take your [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md) right after the trigger finishes or ignore the trigger.
+When the trigger occurs, you can either take your [Reaction](reaction-xphb.md) right after the trigger finishes or ignore the trigger.
 
-When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your [Reaction](0.%20DM%20Screen/variant-rules/reaction-xphb.md) when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires [Concentration](0.%20DM%20Screen/conditions.md#Concentration), which you can maintain up to the start of your next turn. If your [Concentration](0.%20DM%20Screen/conditions.md#Concentration) is broken, the spell dissipates without taking effect.
+When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your [Reaction](reaction-xphb.md) when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires [Concentration](0.%20DM%20Screen/conditions.md#Concentration), which you can maintain up to the start of your next turn. If your [Concentration](0.%20DM%20Screen/conditions.md#Concentration) is broken, the spell dissipates without taking effect.
 
 ## Search
 _Source: Player's Handbook (2024) p. 373. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
@@ -242,7 +242,7 @@ _Source: Player's Handbook (2024) p. 213. Available in the <span title='Systems 
 
 - **Duration**: 1 bonus
 
-When you take the [Attack](0.%20DM%20Screen/actions.md#Attack) action on your turn and attack with a Light weapon, you can make one extra attack as a [Bonus Action](0.%20DM%20Screen/variant-rules/bonus-action-xphb.md) later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a [Shortsword](shortsword-xphb.md) in one hand and a [Dagger](dagger-xphb.md) in the other using the [Attack](0.%20DM%20Screen/actions.md#Attack) action and a [Bonus Action](0.%20DM%20Screen/variant-rules/bonus-action-xphb.md), but you don't add your Strength or Dexterity modifier to the damage roll of the [Bonus Action](0.%20DM%20Screen/variant-rules/bonus-action-xphb.md) unless that modifier is negative.
+When you take the [Attack](0.%20DM%20Screen/actions.md#Attack) action on your turn and attack with a Light weapon, you can make one extra attack as a [Bonus Action](bonus-action-xphb.md) later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a [Shortsword](shortsword-xphb.md) in one hand and a [Dagger](dagger-xphb.md) in the other using the [Attack](0.%20DM%20Screen/actions.md#Attack) action and a [Bonus Action](bonus-action-xphb.md), but you don't add your Strength or Dexterity modifier to the damage roll of the [Bonus Action](bonus-action-xphb.md) unless that modifier is negative.
 
 See also: [Attack](0.%20DM%20Screen/actions.md#Attack)
 
@@ -262,15 +262,15 @@ Whenever you use your Unarmed Strike, choose one of the following options for it
 
 ### Damage
 
-You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your [Proficiency Bonus](0.%20DM%20Screen/variant-rules/proficiency-xphb.md). On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.
+You make an attack roll against the target. Your bonus to the roll equals your Strength modifier plus your [Proficiency Bonus](proficiency-xphb.md). On a hit, the target takes Bludgeoning damage equal to 1 plus your Strength modifier.
 
 ### Grapple
 
-The target must succeed on a Strength or Dexterity [saving throw](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) (it chooses which), or it has the [Grappled](0.%20DM%20Screen/conditions.md#Grappled) condition. The DC for the [saving throw](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) and any escape attempts equals 8 plus your Strength modifier and [Proficiency Bonus](0.%20DM%20Screen/variant-rules/proficiency-xphb.md). This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.
+The target must succeed on a Strength or Dexterity [saving throw](saving-throw-xphb.md) (it chooses which), or it has the [Grappled](0.%20DM%20Screen/conditions.md#Grappled) condition. The DC for the [saving throw](saving-throw-xphb.md) and any escape attempts equals 8 plus your Strength modifier and [Proficiency Bonus](proficiency-xphb.md). This grapple is possible only if the target is no more than one size larger than you and if you have a hand free to grab it.
 
 ### Shove
 
-The target must succeed on a Strength or Dexterity [saving throw](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) (it chooses which), or you either push it 5 feet away or cause it to have the [Prone](0.%20DM%20Screen/conditions.md#Prone) condition. The DC for the [saving throw](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) equals 8 plus your Strength modifier and [Proficiency Bonus](0.%20DM%20Screen/variant-rules/proficiency-xphb.md). This shove is possible only if the target is no more than one size larger than you.
+The target must succeed on a Strength or Dexterity [saving throw](saving-throw-xphb.md) (it chooses which), or you either push it 5 feet away or cause it to have the [Prone](0.%20DM%20Screen/conditions.md#Prone) condition. The DC for the [saving throw](saving-throw-xphb.md) equals 8 plus your Strength modifier and [Proficiency Bonus](proficiency-xphb.md). This shove is possible only if the target is no more than one size larger than you.
 
 ## Utilize
 _Source: Player's Handbook (2024) p. 377. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_

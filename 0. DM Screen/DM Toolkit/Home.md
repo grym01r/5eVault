@@ -1,5 +1,5 @@
 > [!cards|4]
-> **[[3. Modules/insert-module-here|Module]]**
+> **[[3. Modules/1. Neverwinter|Module]]**
 > ![[Pasted image 20251110190751.png#center\sban hsmall ctr]]
 >
 > **[[DM Side Screen|DM Side Screen]]**
@@ -8,8 +8,8 @@
 > **[[Waterdeep Dragon Heist First Quest|Journey Board]]**
 > ![[Pasted image 20251110191411.png#center\sban hsmall ctr]]
 > 
-> **[[0. DM Screen/DM Toolkit/Travel Calculator.md|Travel Calculator]]**
-> ![[Pasted image 20251110191607.png#center\sban hsmall ctr]]
+> **[[Notepad|Notepad]]**
+> ![[satirical_illustration_letter_writing_scene2.jpeg#center\sban hsmall ctr]]
 
 
 

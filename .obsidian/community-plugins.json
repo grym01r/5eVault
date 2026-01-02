@@ -5,7 +5,6 @@
   "various-complements",
   "obsidian-meta-bind-plugin",
   "obsidian-5e-statblocks",
-  "fantasy-content-generator",
   "obsidian-excalidraw-plugin",
   "obsidian-text-format",
   "obsidian-admonition",
@@ -16,5 +15,11 @@
   "buttons",
   "dataview",
   "new-tab-default-page",
-  "obsidian-dangling-links"
+  "obsidian-dangling-links",
+  "obsidian-textgenerator-plugin",
+  "fantasy-content-generator",
+  "maps",
+  "supercharged-links-obsidian",
+  "calendarium",
+  "solo-rpg-toolkit"
 ]

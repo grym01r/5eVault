@@ -8,18 +8,6 @@ PromptInfo:
  version: 0.0.1
 ---
 
----
-AssociatedGroup: Prompt: What Guild Are they In
-Gender: Prompt: What is their Gender
-Race: Prompt: What is their Race
-Age: Prompt: What is their Age
-Class: Prompt: What is their Class
-Alignment: Prompt: What is their Alignment
-Location: Prompt: Where do they live
-AssociatedGroup: Prompt: Are they in a guild or group
-NoteIcon: npc
----
-
 {{#if selection}}
 Use this Information for flavoring the Prompt:
 *Main Focus*
@@ -40,40 +28,21 @@ Use this Information for flavoring the Prompt:
 Use the above information JUST FOR CONTEXT. Come up with new Ideas inspired by the things above, but do not just iterate things from above
 {{/if}}
 
-> [!infobox]
-> # `=this.file.name`
-> ![[z_Assets/Misc/ImagePlaceholder.png|cover hsmall]]
-> [[z_Assets/Misc/ImagePlaceholder.png|Show To Players]]
-> ###### Basic Information
-> Type |  Stat |
-> ---|---|
-> Home | `=this.Location` |
-> Group | `=this.AssociatedGroup` |
-> Sex | `=this.gender` |
-> Race | `=this.race` |
-> Age | `=this.age` |
-> Condition | Healthy |
-> ###### Rules Info
-> Type |  Stat |
-> ---|---|
-> Alignment | `=this.alignment` |
-> Class | `=this.class` |
-> Character Role | `=this.character-role` |
-
 
 # Prompt: NPC Name
+Prompt: Generate a unique name for a character in a Dungeons & Dragons game
 
-Prompt: Add description here
+# Prompt: Race
+Prompt: Choose a race for the character from the tradtional races in Dungeons & Dragons
 
-> [!info] Statblock
-> ```statblock
-> name: Individual
-> monster: Commoner
-> columns: 1
-> ```
+# Prompt: Quirk
+Prompt: Make the NPC feel like someone the party might actually remember
 
-```encounter-table
-name: Individual
-creatures:
- - 1: Commoner
-```
+# Prompt: Secret
+Prompt: What is a grounded and story-driven secret this character is concealing?
+
+# Prompt: Hook
+Prompt: Make the NPC feel like an adventure seed that is creative
+
+# Prompt: Voice
+Prompt: Give inspiration for a Dungeon Master in how this character speaks and what kind of voice to use

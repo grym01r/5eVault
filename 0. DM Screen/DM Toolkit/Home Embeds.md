@@ -1,7 +1,7 @@
 # Party
 ```base
 views:
-  - type: table
+  - type: cards
     name: Party
     filters:
       and:
@@ -101,14 +101,22 @@ views:
     name: Spells
     filters:
       and:
-        - file.name.contains("fire")
         - file.tags.contains("spell")
+        - file.name.contains("fire")
     order:
+      - level
       - aliases
       - file.name
-      - file.path
+      - concentration
+      - spell_slot_upgrade
+      - duration
+      - components
       - file.tags
     sort:
+      - property: aliases
+        direction: ASC
+      - property: file.tags
+        direction: DESC
       - property: obsidianUIMode
         direction: ASC
       - property: benefits
@@ -117,11 +125,14 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
-    limit: 7
+    limit: 10
     columnSize:
-      note.aliases: 304
-      file.name: 300
-      file.path: 556
+      note.level: 65
+      note.aliases: 271
+      file.name: 294
+      note.concentration: 132
+      note.duration: 177
+      note.components: 160
 
 ```
 
@@ -152,11 +163,11 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
-    limit: 7
+    limit: 10
     columnSize:
       note.aliases: 223
       file.name: 273
-      note.environment: 205
+      note.environment: 451
       note.creature type: 199
 
 ```
@@ -190,11 +201,10 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
-    limit: 7
     columnSize:
       note.aliases: 223
       file.name: 273
-      note.item type: 118
+      note.item type: 132
       note.value: 100
       note.weight_lb: 102
 
@@ -210,6 +220,7 @@ views:
     filters:
       and:
         - file.tags.contains("feat")
+        - feat_type == "Origin"
     order:
       - aliases
       - file.name
@@ -226,12 +237,12 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
-    limit: 7
+    limit: 10
     columnSize:
       note.aliases: 223
       file.name: 273
-      note.environment: 205
-      note.creature type: 143
+      note.prequisite: 357
+      note.level: 119
 
 ```
 
@@ -245,6 +256,7 @@ views:
     filters:
       and:
         - file.tags.contains("rule")
+        - file.name.contains("ability")
     order:
       - aliases
       - file.name

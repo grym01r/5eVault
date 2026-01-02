@@ -1,7 +1,7 @@
 {
   "state": {
     "din_health": {
-      "current": 6,
+      "current": 50,
       "temporary": 0,
       "hitdiceUsed": 0,
       "deathSaveSuccesses": 0,
@@ -35,6 +35,9 @@
       "value": 0
     },
     "din_items": {
+      "value": 0
+    },
+    "din_rage_1": {
       "value": 0
     }
   }

@@ -2,10 +2,10 @@
 Container:
 Category:
 tags:
-  - Region
+  - region
 ---
 
-> [!NOTE] Parent Planet: `INPUT[suggester(optionQuery(#World)):Container]`
+> [!NOTE] Parent Plane: `INPUT[suggester(optionQuery(#World)):Container]`
 
 > [!column|no-i no-t]
 >> [!info|no-title] Map
@@ -87,7 +87,7 @@ Make notes of what you need to track in the region here.
 
 # Hubs
 
-`BUTTON[newHub]` **Hubs** Places where people live - Cities, Towns, Villages, Hamlets, Encampment, Keeps, Fortresses, Strongholds.
+`BUTTON[newHub]` Places where people live - Cities, Towns, Villages, Hamlets, Encampment, Keeps, Fortresses, Strongholds.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Hubs(s)", MyCategory as "Type"
@@ -109,7 +109,7 @@ SORT file.name ASC
 
 # Groups
 
-`BUTTON[button_group]` Groups of people and power - religious, cults, guilds, military
+`BUTTON[button_group]` Groups of people and power - religious, cults, guilds, military.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Group(s)", Category as "Type"
@@ -121,7 +121,7 @@ SORT file.name ASC
 
 # Quests
 
-`BUTTON[button_quest]` **P - Philosophy** (Religion and Education) - Houses of Worship, Schools, Universities, Laboratories, Arboretums
+`BUTTON[button_quest]` Expeditions or an undertakings.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Quest(s)", questGiver AS "Quest Giver", questStatus AS "Status"

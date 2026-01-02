@@ -1,0 +1,56 @@
+---
+creature type: fiend
+environment:
+cr:
+alignment: Neutral
+size: Large
+source:
+  - XPHB
+aliases:
+  - Fiendish Spirit (Demon)
+image:
+tags: monster
+---
+# Fiendish Spirit (Demon)
+*Source: Player's Handbook (2024) p. 327*  
+>[!infobox|left clean wmed]
+>```statblock
+>"name": "Fiendish Spirit (Demon) (XPHB)"
+>"size": "Large"
+>"type": "fiend"
+>"alignment": "Neutral"
+>"ac_class": "12 + the spell's level"
+>"modifier": !!int "3"
+>"stats":
+>  - !!int "13"
+>  - !!int "16"
+>  - !!int "15"
+>  - !!int "10"
+>  - !!int "16"
+>"speed": "40 ft., climb 40 ft."
+>"damage_resistances": "fire"
+>"damage_immunities": "poison"
+>"condition_immunities": "[poisoned](0.%20DM%20Screen/conditions.md#Poisoned)"
+>"senses": "[darkvision](0.%20DM%20Screen/senses.md#Darkvision) 60 ft., passive Perception\
+>  \ 10"
+>"languages": "Abyssal, Infernal, Telepathy 60 ft."
+>"traits":
+>  - "desc": "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes.\
+>      \ *Dexterity Saving Throw:* DC equals your spell save DC, each creature in a\
+>      \ 10-foot Emanation originating from the spirit. *Failure:* 2d10 plus this\
+>      \ spell's level Fire damage. *Success:* Half damage."
+>    "name": "Death Throes"
+>  - "desc": "The spirit has Advantage on saving throws against spells and other magical\
+>      \ effects."
+>    "name": "Magic Resistance"
+>"actions":
+>  - "desc": "The spirit makes a number of attacks equal to half this spell's level\
+>      \ (round down)."
+>    "name": "Multiattack"
+>  - "desc": "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5\
+>      \ ft. *Hit:* 1d12 + 3 + the spell's level Necrotic damage."
+>    "name": "Bite"
+>"source":
+>  - "XPHB"
+>```
+^statblock

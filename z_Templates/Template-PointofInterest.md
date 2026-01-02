@@ -2,7 +2,7 @@
 Category:
 Container:
 tags:
-  - PointofInterest
+  - POI
 ---
 
 > [!NOTE] Parent Region: `INPUT[suggester(optionQuery(#Region)):Container]`
@@ -90,7 +90,7 @@ Make notes of what you need to track in the Point of Interest here.
 # Travel
 
 `VIEW[{Travel Calculator#HoursPerDay}][math]` hrs per day
-[[Travel Calculator]]  / [[Exhaustion]] Level: `VIEW[{Travel Calculator#ExhaustionLevel}][math]`
+[[Travel Calculator]]  / [[0. DM Screen/conditions.md#Exhaustion|Exhaustion]]  Level: `VIEW[{Travel Calculator#ExhaustionLevel}][math]`
 
 | Destination |  Travel Days  |
 | ---|---|

@@ -1,0 +1,9 @@
+---
+tags: rule
+aliases:
+- Heavily Obscured
+---
+# Heavily Obscured
+*Source: Player's Handbook (2024) p. 368. Available in the <span title='Systems Reference Document (5.2)'>SRD</span> and the Free Rules (2024)* 
+
+You have the [Blinded](0.%20DM%20Screen/conditions.md#Blinded) condition while trying to see something in a Heavily Obscured space.

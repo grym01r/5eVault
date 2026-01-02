@@ -1,9 +1,2 @@
-```consumable
-items:
-  - label: "Level 1"
-    state_key: din_spells_1
-    uses: 4
-  - label: "Level 2"
-    state_key: din_spell_2
-    uses: 2
-```
+Level 1 `b:1/4`
+Level 2 `boxes: 1/3`

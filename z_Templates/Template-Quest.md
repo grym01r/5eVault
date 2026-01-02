@@ -12,7 +12,7 @@ questNotes:
 questLootAvail:
 questLootEarned:
 tags:
-  - Quest
+  - quest
 ---
 
 > [!NOTE] Parent Region: `INPUT[inlineListSuggester(optionQuery(#Hub),optionQuery(#Region),optionQuery(#Place),optionQuery(#PointofInterest)):Container]`

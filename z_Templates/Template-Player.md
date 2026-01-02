@@ -107,24 +107,13 @@ expertise:
 
 # Spell Slots
 
-```consumable
-items:
-  - label: "Level 1"
-    state_key: din_spells_1
-    uses: 4
-  - label: "Level 2"
-    state_key: din_spell_2
-    uses: 2
-```
+Level 1 `b:1/4`
+Level 2 `b:1/2`
 
 # Traits
 
 ### Luck Points
-```consumable
-label: ""
-state_key: din_luck_points
-uses: 3
-```
+`b:0/3`
 
 You have inexplicable luck that seems to kick in at just the right moment.
 
@@ -137,11 +126,7 @@ If more than one creature spends a luck point to influence the outcome of a roll
 You regain your expended luck points when you finish a long rest.
 
 ### Arcane Recovery
-```consumable
-label: ""
-state_key: din_arcane_recovery
-uses: 1
-```
+`b:0/1`
 
 You have learned to regain some of your magical energy by studying your spell book. Once per day when you finish a **short rest**, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or **less than half your wizard level** (rounded up), and none of the slots can be 6th level or higher.
 
@@ -156,11 +141,7 @@ Groups: `INPUT[inlineListSuggester(optionQuery(#Group)):Connected_Groups]`
 # Inventory
 
 #### Ring of Investigation
-```consumable
-label: ""
-state_key: din_items__ring_of_investigation
-uses: 3
-```
+`b:0/3`
 
 _"May the ability to see also provide you with a clear vision" Grants +1 to Investigation Roles_
 

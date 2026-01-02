@@ -17,7 +17,7 @@ Container:
 Category:
 aliases:
 tags:
-  - Group
+  - group
 ---
 
 %% DO NOT MAKE CHANGES TO THIS PART OF THE TEMPLATE %%
@@ -87,26 +87,22 @@ tags:
 
 **Select Category:** `INPUT[inlineSelect(option(Knightly Order), option(Religious Order), option(Magic Academy), option(Artisan Guild), option(Merchant Consortium), option(Criminal Syndicate), option(Mercenary Company), option(Noble House), option(Secret Society or Cult), option(Adventurers’ Guild)):Category]`
 
-**Values:** The syndicate values skill and ambition, but also discretion and loyalty.
-
-Allies / Enemies:
-
-Membership Requirements:
-
-Benefits This crime syndicate can protect its members from the consequences of all but the most heinous crimes.
-Rank 1: borrow resources (100 gp), case (+15), diversion (+15), gather information, lookout (4 ways, +15)
-Rank 2: borrow resources (1,000 gp), put in a good word, remove evidence, rob, search black market
-Rank 3: borrow resources (5,000 gp), command team (1d4 NPCs of 3rd level, or 3d4 NPCs of 1st level), destroy evidence, market manipulation, reciprocal benefits Rank 4: black market mastery, borrow resources (15,000 gp), command team (1d4 NPCs of 6th level, or 5d4 NPCs of 3rd level)
+A brief description of the group's history and values can go here.
 
 # Goals
 
-> [!NOTE]+ Public Goals
-> - [ ] Achieve This
-> - [ ] Achieve That
+```ad-public
+title: Public Goals
+- [ ] Achieve This
+- [ ] Achieve That
+```
 
-> [!NOTE]- Private Goals
-> - [ ] Achieve This
-> - [ ] Achieve That
+```ad-secret
+title: Private Goals
+- [ ] Achieve This
+- [ ] Achieve That
+```
+
 
 # Membership
 To join the group, a PC must spend X week 'doing' something, or 'something else'.
@@ -184,17 +180,19 @@ SORT file.name ASC
 Services offered. 
 
 
-> [!NOTE]+ Public Services
-> | Item   | Cost | Weight |
-> | ------ | ---- | ------ |
-> | Service 1 | 1gp  | L      |
-> | Service 2 | 1cp  | -      |
+```ad-service-public
+| Item   | Cost | Weight |
+| ------ | ---- | ------ |
+| Service 1 | 1gp  | L      |
+| Service 2 | 1cp  | -      |
+```
 
-> [!NOTE]- Member Services
-> | Item   | Cost | Weight |
-> | ------ | ---- | ------ |
-> | Service 1 | 1gp  | L      |
-> | Service 2 | 1cp  | -      |
+```ad-service-member
+| Item   | Cost | Weight |
+| ------ | ---- | ------ |
+| Service 1 | 1gp  | L      |
+| Service 2 | 1cp  | -      |
+```
 
 # Ranks
 

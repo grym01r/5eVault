@@ -112,25 +112,59 @@ Make notes of what you need to track in the town here.
 The following items belong to `= this.file.name`.
 
 ```dataviewjs
-// 1. grab all pages in the folder
-let pages = dv.pages('"3-Mechanics/Items"').values;
+// ---- CONFIG ---------------------------------------------------
 
-// 2. shuffle (Fisher–Yates)
-for (let i = pages.length - 1; i > 0; i--) {
-  const j = Math.floor(Math.random() * (i + 1));
-  [pages[i], pages[j]] = [pages[j], pages[i]];
+// Exclude these rarities (case-insensitive):
+const excludedRarities = ["artifact", "legendary", "very rare", "rare"];
+
+// Optional: filter by item types (leave empty for "any type")
+const allowedTypes = [];   // e.g., ["weapon", "armor"]
+
+// Number of random items to pick:
+const count = 1;
+
+// ---------------------------------------------------------------
+
+// normalize function (case-insensitive comparison)
+const norm = s => (typeof s === "string" ? s.toLowerCase().trim() : "");
+
+// get all items
+let all = dv.pages('"2. Compendium/items"').values;
+
+// 1. Filter out excluded rarities
+let filtered = all.filter(p => {
+  let rarity = norm(p.rarity ?? "");
+  return !excludedRarities.map(norm).includes(rarity);
+});
+
+// 2. If item types are specified, apply that filter too
+if (allowedTypes.length > 0) {
+  filtered = filtered.filter(p => {
+    let type = p["item type"];
+    if (Array.isArray(type))
+      return type.map(norm).some(t => allowedTypes.map(norm).includes(t));
+    return allowedTypes.map(norm).includes(norm(type));
+  });
 }
 
-// 3. take the first two
-let pick = pages.slice(0, 1);
+// 3. Shuffle (Fisher–Yates)
+for (let i = filtered.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+}
 
-// 4. render table of clickable links + Gender
+// 4. Pick the first N items
+let picks = filtered.slice(0, count);
+
+// 5. Render table
 dv.table(
-  ["Random Item", "cost", "weight"],
-  pick.map(p => [
-    dv.fileLink(p.file.path),        // clickable note link
-    p.cost ?? "—",                  // frontmatter field (falls back to “—” if missing)
-    p.weight ?? "—"                  // frontmatter field (falls back to “—” if missing)
+  ["Item", "Rarity", "Type", "Cost", "Weight"],
+  picks.map(p => [
+    dv.fileLink(p.file.path),
+    p.rarity ?? "—",
+    p["item type"] ?? "—",
+    p.value ?? "—",
+    p.weight_lb ?? "—"
   ])
 );
 ```

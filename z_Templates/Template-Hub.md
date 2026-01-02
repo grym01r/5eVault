@@ -1,10 +1,9 @@
 ---
 hub_size: Town +200
 aliases:
-Hub_size: Hamlet <80
-Container: "[[z_Templates/Template-Region.md|Template-Region]]"
+Container:
 tags:
-  - Hub
+  - hub
 ---
 
 
@@ -180,7 +179,7 @@ Make notes of what you need to track in the town here.
 %% For every other hub/location that you would like to see travel time to, add a line in the table and replicate the format provided. Change the Town name and link it to that towns note and then change the 88 in the formula to match the distance in miles to that place. Use a Leaflet map to measure the distance. %%
 
 `VIEW[{Travel Calculator#HoursPerDay}][math]` hrs per day
-[[Travel Calculator]]  / [[Exhaustion]] Level: `VIEW[{Travel Calculator#ExhaustionLevel}][math]`
+[[Travel Calculator]]  / [[0. DM Screen/conditions.md#Exhaustion|Exhaustion]] Level: `VIEW[{Travel Calculator#ExhaustionLevel}][math]`
 
 | Destination |  Travel Days  |
 | ---|---|

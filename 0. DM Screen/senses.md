@@ -8,12 +8,12 @@ tags: rule
 ## Blindsight
 _Source: Player's Handbook (2024) p. 361. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
 
-If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind [Total Cover](0.%20DM%20Screen/variant-rules/cover-xphb.md) even if you have the [Blinded](0.%20DM%20Screen/conditions.md#Blinded) condition or are in [Darkness](0.%20DM%20Screen/variant-rules/darkness-xphb.md). Moreover, in that range, you can see something that has the [Invisible](0.%20DM%20Screen/conditions.md#Invisible) condition.
+If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind [Total Cover](0.%20DM%20Screen/Variant-rules/cover-xphb.md) even if you have the [Blinded](0.%20DM%20Screen/conditions.md#Blinded) condition or are in [Darkness](0.%20DM%20Screen/Variant-rules/darkness-xphb.md). Moreover, in that range, you can see something that has the [Invisible](0.%20DM%20Screen/conditions.md#Invisible) condition.
 
 ## Darkvision
 _Source: Player's Handbook (2024) p. 365. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
 
-If you have Darkvision, you can see in [Dim Light](0.%20DM%20Screen/variant-rules/dim-light-xphb.md) within a specified range as if it were [Bright Light](0.%20DM%20Screen/variant-rules/bright-light-xphb.md) and in [Darkness](0.%20DM%20Screen/variant-rules/darkness-xphb.md) within that range as if it were [Dim Light](0.%20DM%20Screen/variant-rules/dim-light-xphb.md). You discern colors in that [Darkness](0.%20DM%20Screen/variant-rules/darkness-xphb.md) only as shades of gray.
+If you have Darkvision, you can see in [Dim Light](dim-light-xphb.md) within a specified range as if it were [Bright Light](bright-light-xphb.md) and in [Darkness](0.%20DM%20Screen/Variant-rules/darkness-xphb.md) within that range as if it were [Dim Light](dim-light-xphb.md). You discern colors in that [Darkness](0.%20DM%20Screen/Variant-rules/darkness-xphb.md) only as shades of gray.
 
 ## Tremorsense
 _Source: Player's Handbook (2024) p. 377. Available in the <span title='Systems Reference Document (5.2)'>SRD</span>_
@@ -27,8 +27,8 @@ _Source: Player's Handbook (2024) p. 377. Available in the <span title='Systems 
 
 If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following:
 
-- **Darkness.** You can see in normal and magical [Darkness](0.%20DM%20Screen/variant-rules/darkness-xphb.md).  
+- **Darkness.** You can see in normal and magical [Darkness](0.%20DM%20Screen/Variant-rules/darkness-xphb.md).  
 - **Invisibility.** You see creatures and objects that have the [Invisible](0.%20DM%20Screen/conditions.md#Invisible) condition.  
-- **Visual Illusions.** Visual illusions appear transparent to you, and you automatically succeed on [saving throws](0.%20DM%20Screen/variant-rules/saving-throw-xphb.md) against them.  
+- **Visual Illusions.** Visual illusions appear transparent to you, and you automatically succeed on [saving throws](saving-throw-xphb.md) against them.  
 - **Transformations.** You discern the true form of any creature or object you see that has been transformed by magic.  
 - **Ethereal Plane.** You see into the Ethereal Plane.

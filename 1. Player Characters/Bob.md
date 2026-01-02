@@ -90,7 +90,7 @@ tags:
 > > > ![[#Inventory|no-h1 clean]]
 > >
 > > > [!div-m|no-title]
-> > > ![[#DM Notes|no-h1 clean]]
+> > > ![[#GM Notes|no-h1 clean]]
 
 # Skills
 
