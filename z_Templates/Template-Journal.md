@@ -8,8 +8,7 @@ sessionAbsent:
 Status:
   - ⏳
 timelines:
-  - journal
-
+  - campaign
 ---
 
 # Roster 

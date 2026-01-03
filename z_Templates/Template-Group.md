@@ -109,7 +109,7 @@ To join the group, a PC must spend X week 'doing' something, or 'something else'
 
 # GM Notes
 
-Make notes of what you need to track in the town here. 
+Make notes of what you need to track of the group here.
 
 # Hierarchy
 
@@ -170,7 +170,7 @@ The following people are members of this group.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Name", char_race AS "Race", char_gender AS "Gender"
-FROM "2-Campaign/Quests"
+FROM "2. Quests"
 WHERE contains(Connected_Groups, this.file.link)
 SORT file.name ASC
 ```

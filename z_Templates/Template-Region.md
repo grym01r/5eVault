@@ -9,23 +9,7 @@ tags:
 
 > [!column|no-i no-t]
 >> [!info|no-title] Map
->> ```leaflet  
->> id: ZalkorsFerry ### Must be unique with no spaces  
->> image: [[The Island of Screams.jpg]] ### Link to the map image file. Do not add a ! in front of the image  
->> bounds: [[0,0], [5888, 5882]] ### Size of the map in px Height_y, Width_x. Ignore 0,0  
->> height: 500px ### Size of the leaflet embed in px on your screen  
->> width: 95% ### Size of the leaflet embed in your note  
->> lat: 2944 ### To center the map, make this half of the map height.  
->> long: 2941 ### To center the map, make this half of the map width.  
->> minZoom: -5 ### Controls how far away from the map you can zoom out. Hover over the target icon to see the current level.  
->> maxZoom: 1 ### Controls how far towards the map you can zoom in. Hover over the target icon to see the current level.  
->> defaultZoom: -3.5 ### Sets the default zoom level when the map loads. Hover over the target icon to see the current level.  
->> zoomDelta: 0.5 ### Adjust how much the zoom changes when you zoom in or out.  
->> unit: mi ### The value displayed when measuring so you know what type of unit is being measure.  
->> scale: 0.09328358208955223 ### Real units/px (resolution) of your map  
->> recenter: false  
->> darkmode: false ### marker
->> ```
+>> Insert Image Here
 >
 >> [!note|no-title] Town Name
 >> ~~~meta-bind
@@ -91,7 +75,7 @@ Make notes of what you need to track in the region here.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Hubs(s)", MyCategory as "Type"
-FROM "2-World/Hubs"
+FROM "1. World Almanac/Locations/Hubs"
 WHERE contains(MyContainer, this.file.link)
 SORT file.name ASC
 ```
@@ -102,7 +86,7 @@ SORT file.name ASC
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Points of Interest(s)", Category as "Type"
-FROM "2-World/Points of Interest"
+FROM "1. World Almanac/Locations/POIs"
 WHERE contains(MyContainer, this.file.link)
 SORT file.name ASC
 ```
@@ -113,7 +97,7 @@ SORT file.name ASC
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Group(s)", Category as "Type"
-FROM "2-World/Groups"
+FROM "1. World Almanac/Factions"
 WHERE contains(MyContainer, this.file.link)
 SORT file.name ASC
 ```
@@ -121,11 +105,11 @@ SORT file.name ASC
 
 # Quests
 
-`BUTTON[button_quest]` Expeditions or an undertakings.
+`BUTTON[button_quest]` Expeditions or undertakings.
 
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Quest(s)", questGiver AS "Quest Giver", questStatus AS "Status"
-FROM "2-World/Quests"
+FROM "3. Quests"
 WHERE contains(MyContainer, this.file.link)
 SORT file.name ASC
 ```

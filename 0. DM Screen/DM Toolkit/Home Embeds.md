@@ -201,6 +201,7 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
+    limit: 10
     columnSize:
       note.aliases: 223
       file.name: 273
@@ -270,7 +271,7 @@ views:
         direction: ASC
       - property: alias
         direction: ASC
-    limit: 7
+    limit: 10
     columnSize:
       note.aliases: 348
       file.name: 556

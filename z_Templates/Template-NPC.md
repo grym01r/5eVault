@@ -36,7 +36,7 @@ Container:
 
 > [!column|no-i no-t]
 >> [!div-m|no-title]
->> ![[Pasted image 20250427102611.png]]
+>> Insert Image Here
 >
 >> [!div-m|no-title] Place Name
 >> ~~~meta-bind
@@ -105,7 +105,7 @@ monster: Commoner
 
 # GM Notes
 
-Make notes of what you need to track in the town here. 
+Make notes of what you need to track about the NPC here.
 
 # Inventory
 
@@ -129,7 +129,7 @@ const count = 1;
 const norm = s => (typeof s === "string" ? s.toLowerCase().trim() : "");
 
 // get all items
-let all = dv.pages('"2. Compendium/items"').values;
+let all = dv.pages('"2. Compendium/Items"').values;
 
 // 1. Filter out excluded rarities
 let filtered = all.filter(p => {

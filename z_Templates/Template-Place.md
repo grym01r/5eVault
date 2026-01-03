@@ -10,7 +10,7 @@ tags:
 
 > [!column|no-title]
 >> [!note|no-title]
->> ![[#Image|no-h clean]]
+>>Insert Image Here
 >
 >> [!note|no-title] Place Name
 >> ~~~meta-bind
@@ -79,7 +79,7 @@ SORT file.name ASC
 
 # GM Notes
 
-Make notes of what you need to track in the town here. 
+Make notes of what you need to track about the place here. 
 
 
 # Selling

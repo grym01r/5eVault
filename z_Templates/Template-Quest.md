@@ -19,7 +19,7 @@ tags:
 
 > [!column|no-i no-t]
 >> [!info|no-title] Map
->> ![[Pasted image 20250427093259.png]]
+>> Insert Image Here
 >
 >> [!note|no-title] Town Name
 >> ~~~meta-bind
@@ -86,7 +86,7 @@ Acquired Loot: `INPUT[suggester(optionQuery(#item)):questLootEarned]`
 
 # GM Notes
 
-Make notes of what you need to track in the region here. 
+Make notes of what you need to track about the quest here. 
 
 # Backstory
 

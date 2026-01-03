@@ -1,5 +1,5 @@
 > [!cards|4]
-> **[[3. Modules/1. Neverwinter|Module]]**
+> **[[3. Modules/03-a-friend-in-need.md|Module]]**
 > ![[Pasted image 20251110190751.png#center\sban hsmall ctr]]
 >
 > **[[DM Side Screen|DM Side Screen]]**

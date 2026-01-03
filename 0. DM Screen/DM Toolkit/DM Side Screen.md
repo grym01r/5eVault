@@ -7,6 +7,7 @@ views:
     filters:
       and:
         - file.tags.contains("class")
+        - file.name.contains("barbarian")
     order:
       - file.name
       - file.tags
